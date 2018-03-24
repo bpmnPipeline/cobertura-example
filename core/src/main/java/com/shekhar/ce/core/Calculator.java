@@ -6,7 +6,11 @@ package com.shekhar.ce.core;
 public class Calculator {
 
     public int add(int a, int b){
-        return a + b;
+        if(true) {
+            return a + b;
+        } else {
+            return a;
+        }
     }
 
     public int sub(int a, int b){
